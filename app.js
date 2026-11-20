@@ -5,6 +5,7 @@
   document.title = site.siteName;
   document.querySelectorAll("[data-tab]").forEach(el => {
     el.textContent = site.tabs[el.dataset.tab];
+    el.dataset.label = site.tabs[el.dataset.tab];
   });
 
   // Apps grid
