@@ -3,7 +3,6 @@
 
   // Text (all strings live in site.json)
   document.title = site.siteName;
-  document.querySelector('[data-text="siteName"]').textContent = site.siteName;
   document.querySelectorAll("[data-tab]").forEach(el => {
     el.textContent = site.tabs[el.dataset.tab];
   });
@@ -24,6 +23,11 @@
     img.src = app.screenshot;
     img.alt = "";
     img.loading = "lazy";
+    // Zoomed-in crop: focus point (0–100% of the screenshot) and zoom factor
+    const crop = app.crop || {};
+    img.style.setProperty("--fx", (crop.x ?? 50) + "%");
+    img.style.setProperty("--fy", (crop.y ?? 50) + "%");
+    img.style.setProperty("--zoom", crop.zoom ?? 1);
     thumb.appendChild(img);
 
     const h = document.createElement("h2");
