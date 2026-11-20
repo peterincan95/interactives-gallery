@@ -1,0 +1,21 @@
+{
+  "siteName": "Lorem Ipsum",
+  "tabs": { "apps": "Apps", "about": "About" },
+  "apps": [
+    {
+      "title": "Canada Languages",
+      "url": "https://peterincan95.github.io/canada-language-map/",
+      "screenshot": "screenshots/canada-languages.webp"
+    },
+    {
+      "title": "NYC 311",
+      "url": "https://peterincan95.github.io/nyc-311-calls/",
+      "screenshot": "screenshots/nyc-311.webp"
+    },
+    {
+      "title": "Conflict Fatalities",
+      "url": "https://peterincan95.github.io/conflict-explorer/",
+      "screenshot": "screenshots/conflict-fatalities.webp"
+    }
+  ]
+}
