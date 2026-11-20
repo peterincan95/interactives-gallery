@@ -3,19 +3,19 @@
   "tabs": { "apps": "Apps", "about": "About" },
   "apps": [
     {
-      "title": "Canada Languages",
+      "title": "Canada's Linguistic Tapestry",
       "url": "https://peterincan95.github.io/canada-language-map/",
       "screenshot": "screenshots/canada-languages.webp",
-      "crop": { "x": 60, "y": 40, "zoom": 2 }
+      "crop": { "x": 50, "y": 52, "zoom": 2 }
     },
     {
-      "title": "NYC 311",
+      "title": "New York City 311 Request Explorer",
       "url": "https://peterincan95.github.io/nyc-311-calls/",
       "screenshot": "screenshots/nyc-311.webp",
       "crop": { "x": 25, "y": 40, "zoom": 2.2 }
     },
     {
-      "title": "Conflict Fatalities",
+      "title": "Global Conflict Explorer",
       "url": "https://peterincan95.github.io/conflict-explorer/",
       "screenshot": "screenshots/conflict-fatalities.webp",
       "crop": { "x": 60, "y": 45, "zoom": 2.2 }
