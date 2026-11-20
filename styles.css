@@ -131,6 +131,34 @@ main { padding-top: 40px; padding-bottom: 80px; }
 }
 .tile:hover .tile-title::after { color: var(--accent); }
 
+/* Hover-capable devices: title hidden, revealed over a darkened, blurred image.
+   Touch/mobile keeps the title below the image. */
+@media (hover: hover) and (pointer: fine) {
+  .tile { position: relative; }
+  .thumb { border-bottom: 0; }
+  .thumb img { transition: transform .4s ease, filter .3s ease; }
+  .tile-title {
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    padding: 24px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .3s ease;
+    pointer-events: none;
+  }
+  .tile-title::after { content: none; }
+  .tile:hover .tile-title,
+  .tile:focus-visible .tile-title { opacity: 1; }
+  .tile:hover .thumb img,
+  .tile:focus-visible .thumb img {
+    filter: brightness(0.4) blur(4px);
+    transform: scale(calc(var(--zoom, 1) * 1.04));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .thumb img { transition: none; }
   .tile:hover .thumb img { transform: scale(var(--zoom, 1)); }
