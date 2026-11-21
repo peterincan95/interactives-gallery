@@ -19,6 +19,12 @@
       "url": "https://peterincan95.github.io/conflict-explorer/",
       "screenshot": "screenshots/conflict-fatalities.webp",
       "crop": { "x": 60, "y": 45, "zoom": 2.2 }
+    },
+    {
+      "title": "Logbook Explorer",
+      "url": "https://peterincan95.github.io/logbook-explorer/",
+      "screenshot": "screenshots/logbook-explorer.webp",
+      "crop": { "x": 52, "y": 54, "zoom": 2 }
     }
   ]
 }
