@@ -24,7 +24,7 @@
       "title": "Logbook Explorer",
       "url": "https://peterincan95.github.io/logbook-explorer/",
       "screenshot": "screenshots/logbook-explorer.webp",
-      "crop": { "x": 52, "y": 54, "zoom": 2 }
+      "crop": { "x": 56, "y": 58, "zoom": 1.6 }
     }
   ]
 }
