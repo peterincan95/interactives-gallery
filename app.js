@@ -1,5 +1,6 @@
 (async function () {
-  const site = await fetch("site.json").then(r => r.json());
+  // "no-cache" revalidates with the server each load, so edits show up right away
+  const site = await fetch("site.json", { cache: "no-cache" }).then(r => r.json());
 
   // Text (all strings live in site.json)
   document.title = site.siteName;
@@ -45,7 +46,7 @@
   async function loadAbout() {
     if (aboutLoaded) return;
     aboutLoaded = true;
-    const md = await fetch("about.md").then(r => r.text());
+    const md = await fetch("about.md", { cache: "no-cache" }).then(r => r.text());
     document.getElementById("about-content").innerHTML = marked.parse(md);
   }
 
