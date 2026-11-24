@@ -27,7 +27,7 @@
       "crop": { "x": 56, "y": 58, "zoom": 1.6 }
     },
     {
-      "title": "Lorem ipsum",
+      "title": "Orbit Explorer",
       "url": "https://peterincan95.github.io/asteroid-visualization/",
       "screenshot": "screenshots/asteroid-visualization.webp",
       "crop": { "x": 50, "y": 48, "zoom": 1.7 }
