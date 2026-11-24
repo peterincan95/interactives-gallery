@@ -1,6 +1,3 @@
-
-> [*In Defense of the Detour: On Craft, A.I. and what gets lost when we skip the slow part*](https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html)
-
 ## What is this project?
 
 For the month of November, I decided I wanted to do an exploration of AI-assisted cartography for the web. After seeing some of the work my friends and colleagues have done and watching my Instagram feed fill up with increasingly impressive maps and visualizations, I decided it was time to temper my anxiety and see what this strange new world has to offer. I've used AI tools in my work for a while but mostly limited to writing Python scripts for processing data.
